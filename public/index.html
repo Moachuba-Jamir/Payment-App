@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gpay</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script type="text/javascript" src="./libs/instascan.min.js"></script> -->
+     <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+
+  
+  </head>
+  <body>    
+    <div class="mainContainer">
+      <!-- navbar -->
+      <div class="nav">
+        <h3>U pay</h3>
+        <img class="profile" src="./assets/profile.webp" alt="prfofile" />
+      </div>
+
+      <!-- Hero section -->
+      <div class="hero">
+        <div class="balance">BAL</div>
+
+        <div class="scan">Scan</div>
+      </div>
+
+      <!-- second section -->
+      <div class="second-section">
+        <div class="transaction btns">Transaction</div>
+        <div class="AddFunds btns">add Funds</div>
+        <div class="whatsApp btns">Notify me</div>
+        <div class="blank btns">blank</div>
+      </div>
+
+      <!-- trial for qr video -->
+      <div class="qrContainer">
+        <video id="preview"></video>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
