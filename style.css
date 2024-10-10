@@ -8,7 +8,7 @@
 /* custom fonts */
 @font-face {
   font-family: "gotham";
-  src: url("./assets/fonts/gotham.otf") format("opentype");
+  src: url("./public/assets/fonts/gotham.otf") format("opentype");
 }
 
 body {
